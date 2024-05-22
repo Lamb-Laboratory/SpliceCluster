@@ -8,9 +8,10 @@ Reproduction of the data can be accomplished by downloading cell labels in the â
 
 # Hyperparameters 
 
+```
 --n_neighbors: number of nearby data points clustering is sensitive to (default = 30)
 --n_genes: top gene cutoff (default = 100)
 --n_correlation: minimum correlation needed for genes to be subset (default = .3)
 --distance: Euclidean or Manhattan distance in PCA space (default = Euclidean)
 --time: number of timepoints to shift expression profiles, starting at 0 (default = 5) 
-
+```
